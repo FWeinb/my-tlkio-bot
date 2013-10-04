@@ -1,0 +1,11 @@
+#!/bin/sh
+
+npm install
+export PATH="node_modules/.bin:node_modules/hubot/node_modules/.bin:$PATH"
+
+export HUBOT_AUTH_ADMIN="cbc897"
+export HUBOT_TLKIO_CHANNEL="4ae9b8"
+export HUBOT_TLKIO_AVATAR="http://dl.dropboxusercontent.com/u/5319/avatar-tlkio-bot/avatar.png"
+
+exec node_modules/.bin/hubot "$@"
+
