@@ -22,7 +22,8 @@ module.exports = (robot) ->
           return
 
         video  = msg.random videos
+
         video.link.forEach (link) ->
           if link.rel is "alternate" and link.type is "text/html"
-            msg.send link.href
+            msg.send '['+video.title['$t']+']('+link.href+')';
 
