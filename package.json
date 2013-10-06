@@ -24,7 +24,10 @@
     "hubot-scripts": ">= 2.5.0 < 3.0.0",
     "hubot-tlkio": "~0.0.1",
     "cheerio": "~0.12.2",
-    "openweathermap": "0.0.3"
+    "openweathermap": "0.0.3",
+    "flip": "~0.1.0",
+    "nodepie": "~0.6.2",
+    "underscore": "~1.5.2"
   },
   "engines": {
     "node": ">= 0.8.x",
